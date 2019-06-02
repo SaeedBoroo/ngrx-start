@@ -16,7 +16,6 @@ export class MyCounterComponent implements OnInit {
   { 
     this.count$ = store.pipe(select('count'));
   }
-
   ngOnInit() {
   }
 
